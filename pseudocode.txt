@@ -42,10 +42,10 @@ END
 
 START
 
-SET jumlahPakaian to 20
+SET jumlahPakaian to ANY VALUE
 
 IF
-    jumlahPakaian equals to 20
+    jumlahPakaian equals to ANY VALUE
         DISPLAY "Nyalakan Mesin Cuci."
 ELSE
     DISPLAY "Jangan Nyalakan Mesin Cuci."
