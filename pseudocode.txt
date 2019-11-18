@@ -13,6 +13,7 @@ END
 
 
 
+
 // Soal 2
 
 START
@@ -36,6 +37,34 @@ END
 
 
 
+
 // Soal 3
 
 START
+
+SET jumlahPakaian to 20
+
+IF
+    jumlahPakaian equals to 20
+        DISPLAY "Nyalakan Mesin Cuci."
+ELSE
+    DISPLAY "Jangan Nyalakan Mesin Cuci."
+
+END
+
+
+
+
+
+// Soal 4
+
+START
+
+SET siswa to 40
+SET kukuSiswa to 10 multiplied by 40
+
+IF
+    kuku in kukuSiswa equals to "panjang"
+        DISPLAY "You deserve punishment."
+ELSE
+    DISPLAY "Well done!"
