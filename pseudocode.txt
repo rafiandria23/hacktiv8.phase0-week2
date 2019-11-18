@@ -63,8 +63,12 @@ START
 SET siswa to 40
 SET kukuSiswa to 10 multiplied by 40
 
-IF
-    kuku in kukuSiswa equals to "panjang"
+FOR
+    each kuku in kukuSiswa
+    IF kuku equals to "panjang"
         DISPLAY "You deserve punishment."
-ELSE
-    DISPLAY "Well done!"
+    ELSE
+        DISPLAY "Well done!"
+ENDFOR
+
+END
