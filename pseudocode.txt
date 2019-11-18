@@ -18,16 +18,16 @@ END
 
 START
 
-INPUT tahunKabisat
+SET tahunKabisat to ANY VALUE
 
 IF
-    tahunKabisat mod 4 equals 0
+    tahunKabisat mod 4 equal to 0
         DISPLAY "Tahun ini adalah Tahun Kabisat."
 ELSE IF
-    tahunKabisat mod 100 not equals 0
+    tahunKabisat mod 100 not equal to 0
         DISPLAY "Tahun ini adalah Tahun Kabisat."
 ELSE IF
-    tahunKabisat mod 4 or 100 or 400 equals 0
+    tahunKabisat mod 4 or 100 or 400 equal to 0
         DISPLAY "Tahun ini adalah Tahun Kabisat."
 ELSE
     DISPLAY "Tahun ini bukan Tahun Kabisat."
@@ -45,7 +45,7 @@ START
 SET jumlahPakaian to ANY VALUE
 
 IF
-    jumlahPakaian equals to ANY VALUE
+    jumlahPakaian equal to ANY VALUE
         DISPLAY "Nyalakan Mesin Cuci."
 ELSE
     DISPLAY "Jangan Nyalakan Mesin Cuci."
@@ -65,7 +65,7 @@ SET kukuSiswa to 10 multiplied by 40
 
 FOR
     each kuku in kukuSiswa
-    IF kuku equals to "panjang"
+    IF kuku equal to "panjang"
         DISPLAY "You deserve punishment."
     ELSE
         DISPLAY "Well done!"
