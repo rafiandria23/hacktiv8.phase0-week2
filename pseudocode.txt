@@ -1,1 +1,41 @@
-SET massaBenda TO 600
+// Soal 1
+
+START
+
+SET massaBenda to 600
+SET percepatanBenda to 2
+SET resultanGaya to massaBenda multiplied by percepatanBenda
+
+DISPLAY resultanGaya
+
+END
+
+
+
+
+// Soal 2
+
+START
+
+INPUT tahunKabisat
+
+IF
+    tahunKabisat mod 4 equals 0
+        DISPLAY "Tahun ini adalah Tahun Kabisat."
+ELSE IF
+    tahunKabisat mod 100 not equals 0
+        DISPLAY "Tahun ini adalah Tahun Kabisat."
+ELSE IF
+    tahunKabisat mod 4 or 100 or 400 equals 0
+        DISPLAY "Tahun ini adalah Tahun Kabisat."
+ELSE
+    DISPLAY "Tahun ini bukan Tahun Kabisat."
+
+END
+
+
+
+
+// Soal 3
+
+START
