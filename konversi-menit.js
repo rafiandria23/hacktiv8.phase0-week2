@@ -22,28 +22,6 @@
     } else {
         return 'Please provide the minutes.';
     }
-
-    /**
-     * I got undefined after the result, when using switch case, but I'll leave it as comment anyway.
-     */
-
-    // switch (true) {
-    //     case (menit < 60 && menit > 10):
-    //         console.log(`0:${menit}`);
-    //         break;
-    //     case (menit < 60 && menit < 10):
-    //         console.log(`0:0${menit}`);
-    //         break;
-    //     case (menit > 60 && menitSisa < 10):
-    //         console.log(`${jam}:0${menitSisa}`);
-    //         break;
-    //     case (menit > 60 && menitSisa > 10):
-    //         console.log(`${jam}:${menitSisa}`);
-    //         break;
-    //     default:
-    //         console.log('Please provide the minutes.');
-    //         break;
-    // }
  }
 
 console.log(konversiMenit(63)); // 1:03
